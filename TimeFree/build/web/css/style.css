@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 23, 2014, 2:09:10 PM
+    Author     : viancavillacorta
+*/
+h1{
+    margin-bottom: 40px;
+}
+.Home{
+    background-image: url('../images/background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;   
+}
+.main{
+    margin-top: 80px;
+}
+.teampic{
+    width: 80%;
+    height: 300px;
+}
+.centerText{
+    text-align: center;
+    margin-left: -50px;
+    margin-top: 20px;
+}
+.lighterFoot{
+    background-color: #333333;
+    color: #aaaaaa;
+    padding: 30px;
+    
+}
+.lighterFoot li a{
+    text-decoration: none;
+    color: #aaaaaa;
+    margin-left: -40px;
+}
+.lighterFoot li{
+    list-style: none;
+}
+.contactFooter{
+    margin-bottom: 10px;
+}

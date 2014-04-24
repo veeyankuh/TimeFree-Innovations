@@ -13,7 +13,8 @@ h1{
 .Home{
     background-image: url('../images/background.jpg');
     background-size: 100%;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
+   background-position-y: -30px;
 }
 .main{
     margin-top: 80px;

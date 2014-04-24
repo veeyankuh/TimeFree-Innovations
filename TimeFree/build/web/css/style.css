@@ -30,17 +30,25 @@ h1{
 .lighterFoot{
     background-color: #333333;
     color: #aaaaaa;
-    padding: 30px;
-    
+    padding: 10px;
+    font-size: 13px;
+}
+
+.lighterFoot li{
+    margin-left: -40px;
 }
 .lighterFoot li a{
     text-decoration: none;
     color: #aaaaaa;
-    margin-left: -40px;
+    
 }
 .lighterFoot li{
     list-style: none;
 }
 .contactFooter{
     margin-bottom: 10px;
+}
+.copyright{
+    background-color: #666666;
+    color: #fff;
 }

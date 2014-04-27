@@ -9,41 +9,60 @@ and open the template in the editor.
         <title>TimeFree Innovations</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        
+        <script src="js/jquery.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery.backstretch.min.js" type="text/javascript"></script>
+        <link rel="shortcut icon" type="image/png" href="favicon2.png"/>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $.backstretch("images/background.jpg");
+            });
+        </script>
     </head>
-    <body class="Home">
+    <body><!--
         <header class="navbar navbar-default navbar-fixed-top">
             <div class="container">
-               <div class="navbar-header">
+                <div class="navbar-header">
                     <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                     </button>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
                 <nav class="collapse navbar-collapse" role="navigation">
                     <ul class="nav navbar-nav navbar-right">
-                         <li>
+                        <li>
                             <a href="index.html">Home</a>
                         </li>
                         <li>
                             <a href="#">News</a>
                         </li>
                         <li>
-                          <a href="products.html">Products</a>
+                            <a href="products.html">Products</a>
                         </li>
                         <li>
-                           <a href="aboutus.html">About Us</a>
+                            <a href="aboutus.html">About Us</a>
                         </li>
                     </ul>
                 </nav>
             </div>
-        </header>
-        
+        </header>-->
+        <div class="backstretch">
+        </div>
+        <div class="col-lg-5 col-lg-offset-7" id="wrapper">
+                <div id="content">
+                    <img src="images/logo.png"  />
+                    <ul>
+                        <li>Home</li>
+                        <li>News</li>
+                        <li>Products</li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            </div>
     </body>
 </html>

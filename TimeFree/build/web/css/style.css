@@ -1,12 +1,5 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 23, 2014, 2:09:10 PM
-    Author     : viancavillacorta
-*/
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
 h1{
     margin-bottom: 40px;
 }
@@ -54,7 +47,7 @@ h1{
 
 /*CSS Index.html*/
 html, 
-body {min-height:100%; padding:0; margin:0;}
+body {min-height:100%; padding:0; margin:0; font-family: 'Droid Sans', 'sans-serif';}
 
 #wrapper { position:absolute; top:0; bottom:0; left:0; right:0;}
 #content {min-height:100%; background-color: rgba(248,248,248, 0.9); padding-top: 50px;
